@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-klkv
+  namespace: jvm-build-ekbx-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:a9ff360e12b35966720da8cfb55de83b0e3fdab8f5a8ff43b1513172b3b58f70
+        name: container-image
+        resources: {}
+status: {}
