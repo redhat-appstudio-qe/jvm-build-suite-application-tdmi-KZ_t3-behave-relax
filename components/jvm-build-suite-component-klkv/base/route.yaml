@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-klkv
     app.kubernetes.io/part-of: jvm-build-suite-application-tdmi
-  name: jvm-build-suite-componentjarw
+  name: jvm-build-suite-componentjdz5
   namespace: jvm-build-ekbx-tenant
 spec:
   port:
